@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45FD37D121CAC77F00F2015A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FD37D021CAC77F00F2015A /* AppDelegate.swift */; };
+		45FD37D321CAC77F00F2015A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FD37D221CAC77F00F2015A /* ViewController.swift */; };
+		45FD37D621CAC77F00F2015A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45FD37D421CAC77F00F2015A /* Main.storyboard */; };
+		45FD37D821CAC78100F2015A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45FD37D721CAC78100F2015A /* Assets.xcassets */; };
+		45FD37DB21CAC78100F2015A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45FD37D921CAC78100F2015A /* LaunchScreen.storyboard */; };
+		45FD37E621CAC78200F2015A /* PalatinoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FD37E521CAC78200F2015A /* PalatinoTests.swift */; };
+		45FD37F121CAC78200F2015A /* PalatinoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FD37F021CAC78200F2015A /* PalatinoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45FD37E221CAC78200F2015A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45FD37C521CAC77F00F2015A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45FD37CC21CAC77F00F2015A;
+			remoteInfo = Palatino;
+		};
+		45FD37ED21CAC78200F2015A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45FD37C521CAC77F00F2015A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45FD37CC21CAC77F00F2015A;
+			remoteInfo = Palatino;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45FD37CD21CAC77F00F2015A /* Palatino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Palatino.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45FD37D021CAC77F00F2015A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		45FD37D221CAC77F00F2015A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		45FD37D521CAC77F00F2015A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45FD37D721CAC78100F2015A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45FD37DA21CAC78100F2015A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		45FD37DC21CAC78100F2015A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45FD37E121CAC78200F2015A /* PalatinoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PalatinoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45FD37E521CAC78200F2015A /* PalatinoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalatinoTests.swift; sourceTree = "<group>"; };
+		45FD37E721CAC78200F2015A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45FD37EC21CAC78200F2015A /* PalatinoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PalatinoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45FD37F021CAC78200F2015A /* PalatinoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalatinoUITests.swift; sourceTree = "<group>"; };
+		45FD37F221CAC78200F2015A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45FD37CA21CAC77F00F2015A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45FD37DE21CAC78200F2015A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45FD37E921CAC78200F2015A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45FD37C421CAC77F00F2015A = {
+			isa = PBXGroup;
+			children = (
+				45FD37CF21CAC77F00F2015A /* Palatino */,
+				45FD37E421CAC78200F2015A /* PalatinoTests */,
+				45FD37EF21CAC78200F2015A /* PalatinoUITests */,
+				45FD37CE21CAC77F00F2015A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45FD37CE21CAC77F00F2015A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45FD37CD21CAC77F00F2015A /* Palatino.app */,
+				45FD37E121CAC78200F2015A /* PalatinoTests.xctest */,
+				45FD37EC21CAC78200F2015A /* PalatinoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45FD37CF21CAC77F00F2015A /* Palatino */ = {
+			isa = PBXGroup;
+			children = (
+				45FD37D021CAC77F00F2015A /* AppDelegate.swift */,
+				45FD37D221CAC77F00F2015A /* ViewController.swift */,
+				45FD37D421CAC77F00F2015A /* Main.storyboard */,
+				45FD37D721CAC78100F2015A /* Assets.xcassets */,
+				45FD37D921CAC78100F2015A /* LaunchScreen.storyboard */,
+				45FD37DC21CAC78100F2015A /* Info.plist */,
+			);
+			path = Palatino;
+			sourceTree = "<group>";
+		};
+		45FD37E421CAC78200F2015A /* PalatinoTests */ = {
+			isa = PBXGroup;
+			children = (
+				45FD37E521CAC78200F2015A /* PalatinoTests.swift */,
+				45FD37E721CAC78200F2015A /* Info.plist */,
+			);
+			path = PalatinoTests;
+			sourceTree = "<group>";
+		};
+		45FD37EF21CAC78200F2015A /* PalatinoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				45FD37F021CAC78200F2015A /* PalatinoUITests.swift */,
+				45FD37F221CAC78200F2015A /* Info.plist */,
+			);
+			path = PalatinoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45FD37CC21CAC77F00F2015A /* Palatino */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45FD37F521CAC78200F2015A /* Build configuration list for PBXNativeTarget "Palatino" */;
+			buildPhases = (
+				45FD37C921CAC77F00F2015A /* Sources */,
+				45FD37CA21CAC77F00F2015A /* Frameworks */,
+				45FD37CB21CAC77F00F2015A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Palatino;
+			productName = Palatino;
+			productReference = 45FD37CD21CAC77F00F2015A /* Palatino.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45FD37E021CAC78200F2015A /* PalatinoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45FD37F821CAC78200F2015A /* Build configuration list for PBXNativeTarget "PalatinoTests" */;
+			buildPhases = (
+				45FD37DD21CAC78200F2015A /* Sources */,
+				45FD37DE21CAC78200F2015A /* Frameworks */,
+				45FD37DF21CAC78200F2015A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45FD37E321CAC78200F2015A /* PBXTargetDependency */,
+			);
+			name = PalatinoTests;
+			productName = PalatinoTests;
+			productReference = 45FD37E121CAC78200F2015A /* PalatinoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		45FD37EB21CAC78200F2015A /* PalatinoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45FD37FB21CAC78200F2015A /* Build configuration list for PBXNativeTarget "PalatinoUITests" */;
+			buildPhases = (
+				45FD37E821CAC78200F2015A /* Sources */,
+				45FD37E921CAC78200F2015A /* Frameworks */,
+				45FD37EA21CAC78200F2015A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45FD37EE21CAC78200F2015A /* PBXTargetDependency */,
+			);
+			name = PalatinoUITests;
+			productName = PalatinoUITests;
+			productReference = 45FD37EC21CAC78200F2015A /* PalatinoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45FD37C521CAC77F00F2015A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Kurt Höblinger";
+				TargetAttributes = {
+					45FD37CC21CAC77F00F2015A = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					45FD37E021CAC78200F2015A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 45FD37CC21CAC77F00F2015A;
+					};
+					45FD37EB21CAC78200F2015A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 45FD37CC21CAC77F00F2015A;
+					};
+				};
+			};
+			buildConfigurationList = 45FD37C821CAC77F00F2015A /* Build configuration list for PBXProject "Palatino" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45FD37C421CAC77F00F2015A;
+			productRefGroup = 45FD37CE21CAC77F00F2015A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45FD37CC21CAC77F00F2015A /* Palatino */,
+				45FD37E021CAC78200F2015A /* PalatinoTests */,
+				45FD37EB21CAC78200F2015A /* PalatinoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45FD37CB21CAC77F00F2015A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45FD37DB21CAC78100F2015A /* LaunchScreen.storyboard in Resources */,
+				45FD37D821CAC78100F2015A /* Assets.xcassets in Resources */,
+				45FD37D621CAC77F00F2015A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45FD37DF21CAC78200F2015A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45FD37EA21CAC78200F2015A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45FD37C921CAC77F00F2015A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45FD37D321CAC77F00F2015A /* ViewController.swift in Sources */,
+				45FD37D121CAC77F00F2015A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45FD37DD21CAC78200F2015A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45FD37E621CAC78200F2015A /* PalatinoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45FD37E821CAC78200F2015A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45FD37F121CAC78200F2015A /* PalatinoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45FD37E321CAC78200F2015A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45FD37CC21CAC77F00F2015A /* Palatino */;
+			targetProxy = 45FD37E221CAC78200F2015A /* PBXContainerItemProxy */;
+		};
+		45FD37EE21CAC78200F2015A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45FD37CC21CAC77F00F2015A /* Palatino */;
+			targetProxy = 45FD37ED21CAC78200F2015A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		45FD37D421CAC77F00F2015A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45FD37D521CAC77F00F2015A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		45FD37D921CAC78100F2015A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45FD37DA21CAC78100F2015A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45FD37F321CAC78200F2015A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		45FD37F421CAC78200F2015A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45FD37F621CAC78200F2015A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Palatino/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nitricware.Palatino;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45FD37F721CAC78200F2015A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Palatino/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nitricware.Palatino;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		45FD37F921CAC78200F2015A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PalatinoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nitricware.PalatinoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Palatino.app/Palatino";
+			};
+			name = Debug;
+		};
+		45FD37FA21CAC78200F2015A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PalatinoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nitricware.PalatinoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Palatino.app/Palatino";
+			};
+			name = Release;
+		};
+		45FD37FC21CAC78200F2015A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PalatinoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nitricware.PalatinoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Palatino;
+			};
+			name = Debug;
+		};
+		45FD37FD21CAC78200F2015A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PalatinoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nitricware.PalatinoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Palatino;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45FD37C821CAC77F00F2015A /* Build configuration list for PBXProject "Palatino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45FD37F321CAC78200F2015A /* Debug */,
+				45FD37F421CAC78200F2015A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45FD37F521CAC78200F2015A /* Build configuration list for PBXNativeTarget "Palatino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45FD37F621CAC78200F2015A /* Debug */,
+				45FD37F721CAC78200F2015A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45FD37F821CAC78200F2015A /* Build configuration list for PBXNativeTarget "PalatinoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45FD37F921CAC78200F2015A /* Debug */,
+				45FD37FA21CAC78200F2015A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45FD37FB21CAC78200F2015A /* Build configuration list for PBXNativeTarget "PalatinoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45FD37FC21CAC78200F2015A /* Debug */,
+				45FD37FD21CAC78200F2015A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45FD37C521CAC77F00F2015A /* Project object */;
+}
