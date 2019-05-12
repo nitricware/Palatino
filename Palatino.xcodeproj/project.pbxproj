@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		456307CD21D52BCC00C3A56C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 456307CF21D52BCC00C3A56C /* Localizable.strings */; };
+		457AAA0A21CEA49A0050B48D /* romanPatialNumberStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457AAA0921CEA49A0050B48D /* romanPatialNumberStruct.swift */; };
+		4587820721CC25E600852099 /* Palatino.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4587820621CC25E600852099 /* Palatino.swift */; };
+		45B0C59621D3F5E400C846F8 /* RomanToArabicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B0C59521D3F5E400C846F8 /* RomanToArabicViewController.swift */; };
+		45CA087B21DE7DD60003DDFC /* PalatinoSequenceChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CA087A21DE7DD60003DDFC /* PalatinoSequenceChecker.swift */; };
 		45FD37D121CAC77F00F2015A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FD37D021CAC77F00F2015A /* AppDelegate.swift */; };
 		45FD37D321CAC77F00F2015A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FD37D221CAC77F00F2015A /* ViewController.swift */; };
 		45FD37D621CAC77F00F2015A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45FD37D421CAC77F00F2015A /* Main.storyboard */; };
@@ -34,6 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		456307C721D5298800C3A56C /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
+		456307C821D5298800C3A56C /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		456307CE21D52BCC00C3A56C /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		456307D021D52BCF00C3A56C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		457AAA0921CEA49A0050B48D /* romanPatialNumberStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = romanPatialNumberStruct.swift; sourceTree = "<group>"; };
+		4587820621CC25E600852099 /* Palatino.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palatino.swift; sourceTree = "<group>"; };
+		45B0C59521D3F5E400C846F8 /* RomanToArabicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanToArabicViewController.swift; sourceTree = "<group>"; };
+		45CA087A21DE7DD60003DDFC /* PalatinoSequenceChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalatinoSequenceChecker.swift; sourceTree = "<group>"; };
 		45FD37CD21CAC77F00F2015A /* Palatino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Palatino.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45FD37D021CAC77F00F2015A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45FD37D221CAC77F00F2015A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +90,7 @@
 		45FD37C421CAC77F00F2015A = {
 			isa = PBXGroup;
 			children = (
+				456307CF21D52BCC00C3A56C /* Localizable.strings */,
 				45FD37CF21CAC77F00F2015A /* Palatino */,
 				45FD37E421CAC78200F2015A /* PalatinoTests */,
 				45FD37EF21CAC78200F2015A /* PalatinoUITests */,
@@ -103,6 +117,10 @@
 				45FD37D721CAC78100F2015A /* Assets.xcassets */,
 				45FD37D921CAC78100F2015A /* LaunchScreen.storyboard */,
 				45FD37DC21CAC78100F2015A /* Info.plist */,
+				4587820621CC25E600852099 /* Palatino.swift */,
+				457AAA0921CEA49A0050B48D /* romanPatialNumberStruct.swift */,
+				45B0C59521D3F5E400C846F8 /* RomanToArabicViewController.swift */,
+				45CA087A21DE7DD60003DDFC /* PalatinoSequenceChecker.swift */,
 			);
 			path = Palatino;
 			sourceTree = "<group>";
@@ -211,6 +229,7 @@
 			knownRegions = (
 				en,
 				Base,
+				de,
 			);
 			mainGroup = 45FD37C421CAC77F00F2015A;
 			productRefGroup = 45FD37CE21CAC77F00F2015A /* Products */;
@@ -230,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				45FD37DB21CAC78100F2015A /* LaunchScreen.storyboard in Resources */,
+				456307CD21D52BCC00C3A56C /* Localizable.strings in Resources */,
 				45FD37D821CAC78100F2015A /* Assets.xcassets in Resources */,
 				45FD37D621CAC77F00F2015A /* Main.storyboard in Resources */,
 			);
@@ -256,7 +276,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45B0C59621D3F5E400C846F8 /* RomanToArabicViewController.swift in Sources */,
 				45FD37D321CAC77F00F2015A /* ViewController.swift in Sources */,
+				457AAA0A21CEA49A0050B48D /* romanPatialNumberStruct.swift in Sources */,
+				4587820721CC25E600852099 /* Palatino.swift in Sources */,
+				45CA087B21DE7DD60003DDFC /* PalatinoSequenceChecker.swift in Sources */,
 				45FD37D121CAC77F00F2015A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,10 +317,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		456307CF21D52BCC00C3A56C /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				456307CE21D52BCC00C3A56C /* de */,
+				456307D021D52BCF00C3A56C /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		45FD37D421CAC77F00F2015A /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				45FD37D521CAC77F00F2015A /* Base */,
+				456307C721D5298800C3A56C /* de */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -305,6 +339,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				45FD37DA21CAC78100F2015A /* Base */,
+				456307C821D5298800C3A56C /* de */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -316,6 +351,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -377,6 +413,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -432,7 +469,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PMCWJ9GD9L;
 				INFOPLIST_FILE = Palatino/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -441,7 +480,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.nitricware.Palatino;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -449,7 +488,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PMCWJ9GD9L;
 				INFOPLIST_FILE = Palatino/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -458,7 +499,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.nitricware.Palatino;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

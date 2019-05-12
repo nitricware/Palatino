@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  Palatino
+
+  Created by Kurt Höblinger on 27.12.18.
+  Copyright © 2018 Kurt Höblinger. All rights reserved.
+*/
+
+ERROR_TOO_BIG_TITLE = "Zahl zu groß";
+ERROR_TOO_BIG_TEXT = "Römische Zahlen verhalten sich anders, sobald sie größer als 5000 sind. Diese Version der App unterstützt nur Zahlen von 0-4999.";
+
+ERROR_WRONG_SEQUENCE_TITLE = "Abfolge nicht erlaubt";
+ERROR_WRONG_SEQUENCE_TEXT = "Die römische Zahl die Du eingeben wolltest, passt hier nicht.";

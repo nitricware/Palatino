@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  Palatino
+
+  Created by Kurt Höblinger on 27.12.18.
+  Copyright © 2018 Kurt Höblinger. All rights reserved.
+*/
+
+ERROR_TOO_BIG_TITLE = "Number Too Big";
+ERROR_TOO_BIG_TEXT = "Roman numbers become very different once they're greater than 4000. This version of the App only supports numbers from 0-4999.";
+
+ERROR_WRONG_SEQUENCE_TITLE = "Sequence Not Allowed";
+ERROR_WRONG_SEQUENCE_TEXT = "The roman figure you tried to enter does not fit.";
