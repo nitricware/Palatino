@@ -9,6 +9,8 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    let notificationFeedbackGenerator = UINotificationFeedbackGenerator()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -65,6 +67,8 @@ class ViewController: UIViewController {
     }
     
     func numberKeyPressed(number: Int) -> Void {
+        // Prepare taptic engine in case some error occurs
+        notificationFeedbackGenerator.prepare()
         // TODO: Implement Figure Length Cap with animation
         // Creating new empty var "newFigure" to be filled with the new, compiled figure
         var newFigure: String
@@ -80,14 +84,7 @@ class ViewController: UIViewController {
             } else {
                 // Shake arabic figures if it would become a four digit number
                 if Int(oldFigure + numberString)! > 4999 || oldFigure.count > 3{
-                    let animation = CABasicAnimation(keyPath: "position")
-                    animation.duration = 0.07
-                    animation.repeatCount = 4
-                    animation.autoreverses = true
-                    animation.fromValue = NSValue(cgPoint: CGPoint(x: self.arabicFigures.center.x - 10, y: self.arabicFigures.center.y))
-                    animation.toValue = NSValue(cgPoint: CGPoint(x: self.arabicFigures.center.x + 10, y: self.arabicFigures.center.y))
-                    
-                    self.arabicFigures.layer.add(animation, forKey: "position")
+                    self.errorAnimation()
                     
                     newFigure = oldFigure
                     
@@ -110,6 +107,19 @@ class ViewController: UIViewController {
         let convert = Palatino()
         let latin = convert.convertArabicNumberToLatin(input: Int(newFigure)!)
         self.latinFigures.text = latin
+    }
+    
+    func errorAnimation() -> Void {
+        let animation = CABasicAnimation(keyPath: "position")
+        animation.duration = 0.07
+        animation.repeatCount = 4
+        animation.autoreverses = true
+        animation.fromValue = NSValue(cgPoint: CGPoint(x: self.arabicFigures.center.x - 10, y: self.arabicFigures.center.y))
+        animation.toValue = NSValue(cgPoint: CGPoint(x: self.arabicFigures.center.x + 10, y: self.arabicFigures.center.y))
+        
+        self.arabicFigures.layer.add(animation, forKey: "position")
+        // Send haptic feedback
+        notificationFeedbackGenerator.notificationOccurred(.error)
     }
     
     func clearKeyPressed() -> Void {

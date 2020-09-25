@@ -10,6 +10,7 @@ import UIKit
 
 class RomanToArabicViewController: UIViewController {
     var errorType: Int = 0
+    let notificationFeedbackGenerator = UINotificationFeedbackGenerator()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -79,6 +80,8 @@ class RomanToArabicViewController: UIViewController {
     }
     
     func numberKeyPressed(number: String) {
+        // Prepare taptic engine in case some error occurs
+        notificationFeedbackGenerator.prepare()
         let oldNumber = romanNumberLabel.text!
         let palatino = Palatino()
         var newNumber: String = ""
@@ -96,14 +99,7 @@ class RomanToArabicViewController: UIViewController {
             if arabic > 4999 {
                 newNumber = oldNumber
                 arabic = Int(arabicNumberLabel.text!)!
-                let animation = CABasicAnimation(keyPath: "position")
-                animation.duration = 0.07
-                animation.repeatCount = 4
-                animation.autoreverses = true
-                animation.fromValue = NSValue(cgPoint: CGPoint(x: self.romanNumberLabel.center.x - 10, y: self.romanNumberLabel.center.y))
-                animation.toValue = NSValue(cgPoint: CGPoint(x: self.romanNumberLabel.center.x + 10, y: self.romanNumberLabel.center.y))
-                
-                self.romanNumberLabel.layer.add(animation, forKey: "position")
+                self.errorAnimation()
                 
                 self.errorType = 1
                 
@@ -111,15 +107,7 @@ class RomanToArabicViewController: UIViewController {
             } else if !palatino.charFitsInSequence(string: oldNumber, figure: Character(number)) {
                 newNumber = oldNumber
                 arabic = Int(arabicNumberLabel.text!)!
-                let animation = CABasicAnimation(keyPath: "position")
-                animation.duration = 0.07
-                animation.repeatCount = 4
-                animation.autoreverses = true
-                animation.fromValue = NSValue(cgPoint: CGPoint(x: self.romanNumberLabel.center.x - 10, y: self.romanNumberLabel.center.y))
-                animation.toValue = NSValue(cgPoint: CGPoint(x: self.romanNumberLabel.center.x + 10, y: self.romanNumberLabel.center.y))
-                
-                self.romanNumberLabel.layer.add(animation, forKey: "position")
-                
+                self.errorAnimation()
                 self.errorType = 2
                 
                 buttonState = false
@@ -131,7 +119,20 @@ class RomanToArabicViewController: UIViewController {
         infoButton.isHidden = buttonState
     }
     
-    func clearKeyPressed() {
+    func errorAnimation() -> Void {
+        let animation = CABasicAnimation(keyPath: "position")
+        animation.duration = 0.07
+        animation.repeatCount = 4
+        animation.autoreverses = true
+        animation.fromValue = NSValue(cgPoint: CGPoint(x: self.romanNumberLabel.center.x - 10, y: self.romanNumberLabel.center.y))
+        animation.toValue = NSValue(cgPoint: CGPoint(x: self.romanNumberLabel.center.x + 10, y: self.romanNumberLabel.center.y))
+        
+        self.romanNumberLabel.layer.add(animation, forKey: "position")
+        // Send haptic feedback
+        notificationFeedbackGenerator.notificationOccurred(.error)
+    }
+    
+    func clearKeyPressed() -> Void {
         romanNumberLabel.text = "NULLA"
         arabicNumberLabel.text = "0"
         infoButton.isHidden = true
